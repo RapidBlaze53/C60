@@ -1,0 +1,90 @@
+body {
+margin: 0;
+padding-top: 550px;
+text-align:center;
+background-image: url('data:image/svg+xml,%3Csvg xmlns="http://www.w3.org/2000/svg" width="28" height="49" viewBox="0 0 28 49"%3E%3Cg fill-rule="evenodd"%3E%3Cg id="hexagons" fill="%239C92AC" fill-opacity="0.25" fill-rule="nonzero"%3E%3Cpath d="M13.99 9.25l13 7.5v15l-13 7.5L1 31.75v-15l12.99-7.5zM3 17.9v12.7l10.99 6.34 11-6.35V17.9l-11-6.34L3 17.9zM0 15l12.98-7.5V0h-2v6.35L0 12.69v2.3zm0 18.5L12.98 41v8h-2v-6.85L0 35.81v-2.3zM15 0v7.5L27.99 15H28v-2.31h-.01L17 6.35V0h-2zm0 49v-8l12.99-7.5H28v2.31h-.01L17 42.15V49h-2z"/%3E%3C/g%3E%3C/g%3E%3C/svg%3E');
+}
+
+.profile {
+border-radius: 50%;
+}
+
+
+#welcome {
+position:absolute;
+bottom:0;
+background: linear-gradient(#60ebeb 0%, #5227ae 100%);
+display: table;
+width: 100%;
+height: 100%;
+}
+
+h1 {
+font-size: 50px;
+font-family: cursive;
+}
+
+#name {
+font-size: 50px;
+font-family:'Cinzel Decorative' cursive;
+}
+
+h2 {
+font-size: 30px;
+font-weight: 300;
+font-family: monospace;
+}
+
+#bio {
+font-family:'Cinsel Decorative', cursive;
+padding:50px;
+}
+
+.line {
+height:6px;
+background: color #000;
+width:70px;
+margin: 8px auto;
+}
+
+.parallax-inner {
+display:table-cell;
+vertical-align:middle;
+}
+
+.menu{
+position: fixed;
+margin-top: 0px;
+background: white;
+width: 100%;
+top: 0px;
+z-index: 10;
+}
+
+.links{
+display: inline;
+padding-left: 33px;
+padding-right: 25px;
+font-family: Orbitron;
+font-size:20px;
+font-weight: 600px;
+}
+
+.links:hover {
+font-size: 25px;
+text-decoration: underline;
+}
+
+#writings a {
+text-decoration: underline !important;
+color: green !important;
+}
+a {
+text-decoration: none;
+}
+#contact{
+background:lightblue
+}
+.contact_1 h3 {
+display: inline;
+}
